@@ -10,6 +10,10 @@
     --roboto-mono: 'Roboto Mono', monospace;
 }
 
+*{
+    font-weight: 400;
+}
+
 body{
     color: var(--branco);
     background-color: var(--cor-de-fundo);
@@ -38,3 +42,18 @@ body{
 }
 
 #campo-senha{
+    background-color: var(--fundo-senha);
+    border: none;
+    color: var(--branco);
+    font-family: var(--roboto-mono);
+    font-size: 40px;
+}
+
+#campo-senha:focus{
+    outline: none;
+}
+
+.conteudo{
+    max-width: 1200px;
+    margin: 0 auto;
+}
